@@ -9,9 +9,8 @@ import Offer from "./components/offer";
 import ProductList from "./components/product-List";
 import Progressor from "./components/progressor";
 import Coffee from "./components/coffee";
-import MenuItems from "./components/Menu-Items";
 import Reservation from "./components/Reservation";
-
+import Menu from "./components/Menuitem";
 
 
 export default function App(){
@@ -24,7 +23,7 @@ export default function App(){
 <Coffee />
 <Banner/>
 <ProductList/>
-<MenuItems />
+<Menu />
 <Offer/>
 <Card/>
 <Reservation />
