@@ -11,7 +11,7 @@ export default function handler(req, res) {
             id: 2,
             name: "Pistachio-latte",
             price: 20,
-            image: "/Pistachio-latte.jpg"
+            image: "/pistachio-latte.jpg"
         },
         {
             id: 3,
