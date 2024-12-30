@@ -1,5 +1,6 @@
-import { Product } from "@/pages/types";
 import React from "react";
+import { Product } from "@/pages/types";
+
 
 interface productCardProps extends Product {
   onAddToCart: (product: Product) => void;
