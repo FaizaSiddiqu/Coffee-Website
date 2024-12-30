@@ -1,5 +1,10 @@
 import React from "react";
-import { Product } from "@/pages/types";
+interface Product {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+}
 
 
 interface productCardProps extends Product {

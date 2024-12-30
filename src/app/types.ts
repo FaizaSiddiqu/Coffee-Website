@@ -1,4 +1,4 @@
-import { types } from "util";
+
 
 export interface Product {
     id: number;
@@ -6,4 +6,4 @@ export interface Product {
     price: number;
     image: string;
 }
-export default types
+

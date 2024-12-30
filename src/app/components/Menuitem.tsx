@@ -4,7 +4,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 import ProductCard from "./ProductCard";
-import { Product } from "@/pages/types";
+import { Product } from "../types";
+
 
 const Menu = () => {
   const [products, setProducts] = useState<Product[]>([]);
